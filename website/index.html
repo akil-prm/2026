@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A simple mock website for a small creative studio." />
+    <title>Northstar Studio — Ideas into impact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Northstar Studio home">
+        <span class="brand-mark" aria-hidden="true">✳</span> northstar<span class="brand-light">studio</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu</button>
+      <nav id="navigation" class="navigation" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Independent creative studio</p>
+          <h1>Good ideas<br />deserve to <em>go places.</em></h1>
+          <p class="intro">We build thoughtful brands and digital experiences for people making a difference.</p>
+          <a class="button" href="#work">Explore our work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="Abstract colorful illustration" role="img">
+          <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="planet"></div><div class="spark spark-one">✳</div><div class="spark spark-two">✦</div>
+          <span class="art-label">MAKE<br />SOMETHING<br /><strong>MATTER</strong></span>
+        </div>
+        <div class="hero-foot"><span>Strategy · Identity · Digital</span><span>Scroll to explore&nbsp; ↓</span></div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-heading"><p class="eyebrow">A few recent favorites</p><h2>Made with <em>purpose.</em></h2></div>
+        <div class="project-grid">
+          <a class="project project-olive" href="#contact"><div class="project-art art-leaf"><span>field<br />notes</span><i>✿</i></div><div class="project-meta"><strong>Field Notes</strong><span>Brand identity · 2025</span></div></a>
+          <a class="project project-lilac" href="#contact"><div class="project-art art-ceramic"><span>slow<br />objects</span><i>◒</i></div><div class="project-meta"><strong>Slow Objects</strong><span>Art direction · 2024</span></div></a>
+          <a class="project project-blue" href="#contact"><div class="project-art art-wave"><span>blue hour<br />journal</span><i>≈</i></div><div class="project-meta"><strong>Blue Hour</strong><span>Digital experience · 2024</span></div></a>
+        </div>
+      </section>
+
+      <section class="about section" id="about"><p class="eyebrow">Small team, big-picture thinking</p><h2>We make the complex<br />feel <em>clear.</em></h2><p>From first sketch to final launch, we partner with good people to make useful, lasting things. Curious by nature, collaborative by default.</p><a class="text-link" href="#contact">A little more about us <span aria-hidden="true">↗</span></a></section>
+      <section class="contact" id="contact"><p class="eyebrow">Have a good one in mind?</p><h2>Let’s make it<br /><em>real.</em></h2><a class="button button-light" href="mailto:hello@northstar.studio">hello@northstar.studio <span aria-hidden="true">↗</span></a></section>
+    </main>
+    <footer><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span> northstar<span class="brand-light">studio</span></a><span>Thoughtfully made, wherever you are.</span><span>© 2025 Northstar Studio</span></footer>
+  </body>
+</html>
